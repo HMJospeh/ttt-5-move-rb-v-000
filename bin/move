@@ -10,4 +10,3 @@ puts "Where would you like to go?"
 input = gets.strip
 input_to_index(input)
 move(board, user_input, char = "X")
-board[user_input] = char
